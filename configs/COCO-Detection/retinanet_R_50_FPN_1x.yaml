@@ -2,6 +2,7 @@ _BASE_: "../Base-RetinaNet.yaml"
 MODEL:
 #  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
 #  WEIGHTS: "/mnt/hdd0/detectron2/weights/r50.pkl"
-  WEIGHTS: "/mnt/hdd0/detectron2/weights/patchrot.pkl"
+#  WEIGHTS: "/mnt/hdd0/detectron2/weights/patchrot.pkl"
+  WEIGHTS: "/mnt/hdd0/detectron2/weights/gridrot.pkl"
   RESNETS:
     DEPTH: 50
